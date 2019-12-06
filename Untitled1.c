@@ -20,7 +20,7 @@ void sumarr(const int* parr, int n) {
   int sum=0;
   for(int i=0;i<n;i++)
     sum+=*parr++;   //sum+=parr[i]  //sum+=*(parr+i)
-  //print sum
+  printf("%d",sum);
 }
 void display(const int *parr,int n) {
   for(int i=0;i<n;i++)
